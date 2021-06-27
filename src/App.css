@@ -1,4 +1,27 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo-selection-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5%;
+  width: 90%;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom right, rgb(143, 143, 143), rgb(98, 98, 98));
+}
+
+#title {
   text-align: center;
 }
 
+.ui, .menu, .pointing {
+  background-image: linear-gradient(to bottom right, rgb(143, 143, 143), rgb(98, 98, 98));
+}
